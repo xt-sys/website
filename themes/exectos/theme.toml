@@ -1,0 +1,10 @@
+name = "ExectOS"
+license = "GPLv3"
+licenselink = "https://www.gnu.org/licenses/gpl-3.0.html"
+description = "ExectOS Theme"
+homepage = "https://exectos.eu.org"
+languageCode = "en-us"
+min_version = "0.1.0"
+
+[author]
+    name = "Rafal Kupiec"

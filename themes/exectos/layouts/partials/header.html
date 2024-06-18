@@ -1,0 +1,19 @@
+<div class="wrapper_header">
+	<div class="header">
+		<h1><a href="{{ .Site.BaseURL }}"><img src="/images/exectos_logo.png" alt="LOGO" width="50px" /> {{ .Site.Title }}</a></h1>
+		<ul>
+			{{ range .Site.Menus.main }}
+			{{ if .HasChildren }}
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }}<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					{{ range .Children }}
+					<li><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a></li>
+					{{ end }}
+				</ul>
+			{{ else }}
+				<li><a href="{{ .URL }}">{{ .Pre }}<b>{{ $text := print .Name | safeHTML }}{{ $text }}{{ .Post }}</b></a></li>
+			{{ end }}
+			{{ end }}
+		</ul>
+	</div>
+</div>

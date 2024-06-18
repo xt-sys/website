@@ -1,0 +1,43 @@
+baseURL = "https://exectos.eu.org/"
+disableKinds = ["taxonomy"]
+title = "ExectOS Operating System"
+theme = "exectos"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = 10
+
+[menu]
+
+[[menu.main]]
+	name = "Documentation"
+	pre = "<div class='fa fa-book'></div> "
+	url  = "/documentation"
+	weight = 1
+
+[[menu.main]]
+	name = "Contributing"
+	pre = "<div class='fa fa-code-fork'></div> "
+	url  = "/contributing"
+	weight = 2
+
+[[menu.main]]
+	name = "Download"
+	pre = "<div class='fa fa-cubes'></div> "
+	url  = "/download"
+	weight = 3
+
+[[menu.main]]
+	name = "Source Code"
+	pre = "<div class='fa fa-codepen'></div> "
+	url  = "/source-code"
+	weight = 4
+
+[[menu.main]]
+	name = "Discord"
+	pre = "<div class='fa fa-wechat'></div> "
+	url = "https://discord.com/invite/zBzJ5qMGX7"
+	weight = 5
+
+[params]
+	defaultKeywords = ["ExectOS", "XT", "XTOS", "efi", "gpl3", "kernel", "nt", "open source", "os", "osdev", "uefi boot", "win32"]
+	defaultDescription = "ExectOS Operating System"
