@@ -70,7 +70,8 @@ ExectOS source code can be obtained from GIT repository available [here](https:/
 It can be also found on [GitHub](https://github.com/xt-sys/exectos) and [GitLab](https://gitlab.com/xt-sys/exectos) mirrors.
 
 #### Where can I download ExectOS?
-Each ExectOS build, including binaries, disk image, libraries and debug symbols are available [here](https://artifacts.codingworkshop.eu.org/ExectOS/).
+Each ExectOS build, including binaries, disk image, libraries and debug symbols are available
+[here](https://artifacts.codingworkshop.eu.org/ExectOS/).
 
 #### How can I contribute to ExectOS?
 We are looking for C and Assembler developers for core OS development as well as testers. If you are willing to help,
@@ -80,24 +81,33 @@ please join our [Discord server](https://discord.com/invite/zBzJ5qMGX7) and cont
 Because GCC is a crap.
 
 #### Do you have any kind of tests to check if the code is working as expected?
-We don't need tests. If it compiles, it is good enough; if it boots up, then it is perfect.
+In the spirit of lighthearted development, we often quip "We don't need tests. If it compiles, it is good enough; if it
+boots up, then it is perfect." However, on a more serious note, while our current focus is heavily on developing core
+features and conducting manual testing, we fully recognize the importance of automated testing. As the project matures,
+implementing a comprehensive suite of automated tests is definitely on our roadmap.
 
 #### Why don't you help Wine?
 Wine implements Win32Api only, while ExectOS is a featureful Operating System, that implements a compatibility layer with
-NT&trade;. This means, ExectOS will be able to run NT&trade; drivers as well, not only Windows&reg; software. However, thanks
-to its modular design, it will be possible to implement Win32 subsystem as well at some point, based on Wine.
+NT&trade;. This means, ExectOS will be able to run NT&trade; drivers as well, not only Windows&reg; software. However,
+thanks to its modular design, it will be possible to implement Win32 subsystem as well at some point, based on Wine.
 
 #### Why don't you help ReactOS?
-ExectOS goals are very different from ReactOS, and contrast the project's core philosophy as being quite on different paths.
-While ReactOS aims to replicate Windows&reg; NT&trade;, ExectOS is a completely new Operating System implementing the XT
-architecture which derives from NT&trade;. Although both projects share the goal of being NT&trade; compatible, they intend
-to achieve it in different ways. What ReactOS tries to replicate, ExectOS only implements as a compatibility layer. Thanks
-to that, ExectOS does not need to strictly follow NT&trade; architecture and is capable of providing modern features.
+ExectOS goals are very different from ReactOS, and contrast the project's core philosophy as being quite on different
+paths. While ReactOS aims to replicate Windows&reg; NT&trade;, ExectOS is a completely new Operating System implementing
+the XT architecture which derives from NT&trade;. Although both projects share the goal of being NT&trade; compatible,
+they intend to achieve it in different ways. What ReactOS tries to replicate, ExectOS only implements as a compatibility
+layer. Thanks to that, ExectOS does not need to strictly follow NT&trade; architecture and is capable of providing modern
+features.
 
 #### Do you intend to cooperate with ReactOS to achieve common goals?
 No. We share Wine's opinion on the inappropriate reverse-engineering methods used in the ReactOS project, as well as its
 association with the TinyKrnl project, which used every possible method of achieving the end result of having a 100%
 compatible results. This especially applies to the so-called ‘dirty’ way.
+
+#### Is ExectOS an EU-funded project?
+No. ExectOS is not funded by the European Union; however, it is a project led by Europeans committed to adhering to EU
+laws and regulations. While the project has its roots in Europe, we wholeheartedly welcome all individuals around the
+world. Everyone is invited to join, use, and contribute to ExectOS, fostering a truly global community.
 
 #### Which license does ExectOS use?
 ExectOS is licensed under the GNU General Public License v3.
