@@ -112,6 +112,20 @@ pre code {
     margin-top       : 1.5em;
 }
 
+@media (max-width: 1280px) {
+.content {
+    margin-left      : 60px;
+    margin-right     : 50px;
+}
+}
+
+@media (max-width: 1024px) {
+.content {
+    margin-left      : 50px;
+    margin-right     : 40px;
+}
+}
+
 .content img {
     border           : 0px;
     display          : block;
