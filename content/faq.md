@@ -77,9 +77,6 @@ Each ExectOS build, including binaries, disk image, libraries and debug symbols 
 We are looking for C and Assembler developers for core OS development as well as testers. If you are willing to help,
 please join our [Discord server](https://discord.com/invite/zBzJ5qMGX7) and contact one of ExectOS developers.
 
-#### Why don't you use GCC?
-Because GCC is a crap.
-
 #### Do you have any kind of tests to check if the code is working as expected?
 In the spirit of lighthearted development, we often quip "We don't need tests. If it compiles, it is good enough; if it
 boots up, then it is perfect." However, on a more serious note, while our current focus is heavily on developing core
@@ -98,11 +95,6 @@ the XT architecture which derives from NT&trade;. Although both projects share t
 they intend to achieve it in different ways. What ReactOS tries to replicate, ExectOS only implements as a compatibility
 layer. Thanks to that, ExectOS does not need to strictly follow NT&trade; architecture and is capable of providing modern
 features.
-
-#### Do you intend to cooperate with ReactOS to achieve common goals?
-No. We share Wine's opinion on the inappropriate reverse-engineering methods used in the ReactOS project, as well as its
-association with the TinyKrnl project, which used every possible method of achieving the end result of having a 100%
-compatible results. This especially applies to the so-called ‘dirty’ way.
 
 #### Is ExectOS an EU-funded project?
 No. ExectOS is not funded by the European Union; however, it is a project led by Europeans committed to adhering to EU
