@@ -17,7 +17,6 @@ does not feature a separate Hardware Abstraction Layer (HAL) between the physica
 XT architecture integrates a hardware specific code with the kernel. The user mode is made up of subsystems and it has been
 designed to run applications written for many different types of operating systems. This allows us to implement any
 environment subsystem to support applications that are strictly written to the corresponding standard (eg. DOS, or POSIX).
-Thanks to that ExectOS will allow to run existing software, including Win32 applications.
 
 ## Features
  * Completely free, Open Source and community-driven modern Operating System.
