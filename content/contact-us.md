@@ -37,7 +37,9 @@ Discord is a VoIP instant messaging and digital distribution platform. It
  * **Activity**: Staying up-to-date with GIT and development activity.
  * **Announcements**: Staying informed and up-to-date with important activities.
  * **General**: Getting help, helping and supporting others, leveling up knowledge, participating and contributing.
+ * **Forum**: Thematic conversations.
  * **Offtopic**: Connecting and enjoying time with other people in the community.
+ * **Memes**: Enjoying time with funny memes.
 
 ## ExectOS Channels
 Discover more about ExectOS and dive into a world of insightful content by visiting our official
