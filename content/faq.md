@@ -40,11 +40,11 @@ some time. However development is mostly focused on providing system core at the
 
 #### Is ExectOS another Unix based OS?
 No. ExectOS implements the XT architecture which derives from NT&trade; architecture. It is modular, and consists of
-two main layers: microkernel and user mode. Its' kernel mode has full access to the hardware and system resources and
-runs code in a protected memory area. It consists of executive services, which is itself made up on many modules that
-do specific tasks, a kernel and drivers. Unlike the NT&trade;, system does not feature a separate Hardware Abstraction
-Layer (HAL) between the physical hardware and the rest of the OS. Instead, XT architecture integrates a hardware specific
-code with the kernel.
+two main layers: kernel and user mode. Its' kernel mode has full access to the hardware and system resources and runs
+code in a protected memory area. It consists of executive services, which is itself made up on many modules that do
+specific tasks, a kernel and drivers. Unlike the NT&trade;, system does not feature a separate Hardware Abstraction Layer
+(HAL) between the physical hardware and the rest of the OS. Instead, XT architecture integrates a hardware specific code
+with the kernel.
 
 #### Does ExectOS allow to use Windows drivers?
 This is one of our goals. Thanks to the NT&trade; drivers compatibility layer provided by ExectOS, you should be able to

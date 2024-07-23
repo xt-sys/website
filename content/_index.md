@@ -10,11 +10,11 @@ that enables kernel level components to be upgraded without a need to recompile 
 
 ## XT Architecture
 ExectOS is a preemptive, reentrant multitasking operating system that implements the XT architecture which derives from
-NT&trade; architecture. It is modular, and consists of two main layers: microkernel and user modes. Its' kernel mode has
-full access to the hardware and system resources and runs code in a protected memory area. It consists of executive
-services, which is itself made up on many modules that do specific tasks, a kernel and drivers. Unlike the NT&trade;, system
-does not feature a separate Hardware Abstraction Layer (HAL) between the physical hardware and the rest of the OS. Instead,
-XT architecture integrates a hardware specific code with the kernel. The user mode is made up of subsystems and it has been
+NT&trade; architecture. It is modular, and consists of two main layers: kernel and user modes. Its' kernel mode has full
+access to the hardware and system resources and runs code in a protected memory area. It consists of executive services,
+which is itself made up on many modules that do specific tasks, a kernel and drivers. Unlike the NT&trade;, system does
+not feature a separate Hardware Abstraction Layer (HAL) between the physical hardware and the rest of the OS. Instead, XT
+architecture integrates a hardware specific code with the kernel. The user mode is made up of subsystems and it has been
 designed to run applications written for many different types of operating systems. This allows us to implement any
 environment subsystem to support applications that are strictly written to the corresponding standard (eg. DOS, or POSIX).
 
