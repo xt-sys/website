@@ -9,35 +9,42 @@ paginate = 10
 [menu]
 
 [[menu.main]]
+	name = "News"
+	pre = "<div class='fa fa-newspaper-o'></div> "
+	url  = "/news"
+	weight = 1
+
+[[menu.main]]
 	name = "Documentation"
 	pre = "<div class='fa fa-book'></div> "
 	url  = "/documentation"
-	weight = 1
+	weight = 2
 
 [[menu.main]]
 	name = "Contributing"
 	pre = "<div class='fa fa-code-fork'></div> "
 	url  = "/contributing"
-	weight = 2
+	weight = 3
 
 [[menu.main]]
 	name = "Download"
 	pre = "<div class='fa fa-cubes'></div> "
 	url  = "/download"
-	weight = 3
+	weight = 4
 
 [[menu.main]]
 	name = "Source Code"
 	pre = "<div class='fa fa-codepen'></div> "
 	url  = "/source-code"
-	weight = 4
+	weight = 5
 
 [[menu.main]]
 	name = "Discord"
 	pre = "<div class='fa fa-wechat'></div> "
 	url = "https://discord.com/invite/zBzJ5qMGX7"
-	weight = 5
+	weight = 6
 
 [params]
-	defaultKeywords = ["ExectOS", "XT", "XTOS", "efi", "gpl3", "kernel", "nt", "open source", "os", "osdev", "uefi boot", "win32"]
+	dateFormat = "Jan 2, 2006"
+	defaultKeywords = ["ExectOS", "XT", "XTOS", "efi", "gpl", "gpl3", "kernel", "nt", "open source", "os", "osdev", "uefi boot", "win32"]
 	defaultDescription = "ExectOS Operating System"
