@@ -1,0 +1,39 @@
+{{ with .context }}
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div class="wrapper_content">
+            <div class="content">
+                <h2>{{ .Title }}</h2>
+                {{ range $.paginator.Pages }}
+                    <section class="news">
+                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                        <div class="news_info">
+                            <div class="news_author">{{ if isset .Params "author" }}by {{ .Params.author }}{{ end }}</div>
+                            <div class="news_date"><i class="fa fa-calendar"></i> {{ .Date.Format .Site.Params.dateFormat }}</div>
+                        </div>
+                        <div class="news_intro">{{ .Summary }}</div>
+                    </section>
+                {{ end }}
+                <div class="pagination">
+                    <ul>
+                        {{ if .Paginator.HasPrev }}
+                            <li><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; Newer</a></li>
+                        {{ else }}
+                            <li><a href="#">&larr; Newer</a></li>
+                        {{ end }}
+                        {{ if .Paginator.HasNext }}
+                            <li><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">Older &rarr;</a></li>
+                        {{ else }}
+                            <li><a href="#">Older &rarr;</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    {{- partial "footer.html" . -}}
+    </body>
+</html>
+{{ end }}

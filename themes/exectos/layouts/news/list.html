@@ -1,0 +1,2 @@
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "news")) }}
+{{ partial "list.html" (dict "context" . "paginator" $paginator) }}
