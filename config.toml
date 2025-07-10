@@ -4,7 +4,6 @@ title = "ExectOS Operating System"
 theme = "exectos"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-paginate = 10
 
 [menu]
 
