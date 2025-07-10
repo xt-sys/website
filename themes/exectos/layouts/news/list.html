@@ -1,2 +1,2 @@
-{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "news")) }}
+{{ $paginator := .Paginate (where site.RegularPages.ByDate.Reverse "Type" "news") 5 }}
 {{ partial "list.html" (dict "context" . "paginator" $paginator) }}
