@@ -1,7 +1,7 @@
 +++
 title = 'Streamlining for the Future: Inside the Latest XTchain Overhaul'
 author = 'Aiken Harris'
-date = '2025-07-10T16:15:42+02:00'
+date = '2025-07-10T15:48:42+02:00'
 +++
 In the dynamic world of software development, the ExectOS project has emerged as a captivating endeavor by a community
 of passionate programmers. This novel operating system, designed for enthusiasts and innovators alike, has recently
