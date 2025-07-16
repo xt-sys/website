@@ -2,8 +2,9 @@
 title = 'Building ExectOS'
 date = 2024-06-18T16:37:24+02:00
 +++
-To build ExectOS, you must use the XTchain toolchain. Make sure you have already [downloaded](/download) and installed it.
-Once the toolchain is installed and the source code is ready, open a terminal and launch the XTchain Build Environment:
+ExectOS must be compiled with the XTChain toolchain. Make sure you have already [downloaded](/download) and installed
+XTchain and [set up the environment](/contributing/setting-up-xtchain) before proceeding. Once this is done and the
+source code is ready, open a terminal and launch the XTChain Build Environment.
 ```
 xtchain
 ```
