@@ -14,4 +14,5 @@ date = 2024-06-16T22:31:24+02:00
  * [Developing ExectOS](/contributing/developing-exectos)
  * [ExectOS Coding Style](/contributing/coding-style)
  * [First steps with GIT](/contributing/working-with-git)
+ * [Setting Up XTchain](/contributing/setting-up-xtchain)
  * [Submitting Patches](/contributing/submitting-patches)
