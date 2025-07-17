@@ -40,3 +40,14 @@ This policy allows:
  - All locally created scripts (including xtchain.ps1) to run without signing.
  - Scripts downloaded from the internet to require a trusted digital signature.
 Warning: Only change execution policy if you trust the scripts you run.
+
+### 3. Use Git Bash for a Unix-like Environment
+As an alternative, if you have installed Git for Windows along with the bundled MSYS2 tools, you can leverage its Bash shell and
+Unix-style scripts to initialize XTchain exactly as on Linux. During the installation process, you have the option to include a set
+of additional Unix utilities that, combined with the Bash shell, provide a powerful and familiar development environment. This setup
+allows you to run XTchain’s shell scripts seamlessly on Windows, mirroring the Linux workflow and ensuring consistency across
+platforms without the need for platform-specific adjustments.
+
+For added convenience, you can also configure a dedicated profile in Windows Terminal that automatically launches Git Bash with the
+XTchain environment pre-initialized. This makes it easy to jump straight into a ready-to-use shell session. The process for creating
+this terminal profile is analogous to the one described in section 1.
