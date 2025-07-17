@@ -3,6 +3,7 @@ title = 'Documentation'
 date = 2024-06-16T22:27:36+02:00
 +++
 ### Getting Started
+ * [AI-Assisted Contributions](/ai-assisted)
  * [Frequently Asked Questions](/faq)
  * [Get in Touch](/contact-us)
  * [Installation Guide](/documentation/install-guide)
