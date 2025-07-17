@@ -7,6 +7,33 @@ This guide explains how to set up and use XTchain efficiently on your system. Yo
 environment, configure your terminal for convenience, and ensure that your development setup is ready for building projects
 like ExectOS.
 
+## Setting Up XTchain on Linux
+Setting up XTchain on Linux is designed to be as straightforward and hassle-free as possible. Once you have downloaded and
+extracted the XTchain archive, there is virtually no additional configuration required to get started. Simply navigate to the
+extracted directory and launch the main executable script:
+```
+/path/to/xtchain/xtchain
+```
+This single command initializes the entire XTchain environment, automatically setting up all necessary paths, environment variables,
+and dependencies behind the scenes. The script ensures that your terminal session is fully prepared for building ExectOS right away,
+so you can focus on development rather than setup.
+
+Because Linux inherently supports scripting and shell environments, XTchain takes advantage of native shell features to provide
+a seamless experience. The environment is preconfigured to recognize common build tools and utilities, minimizing any need for
+manual intervention.
+
+For convenience, you might consider either creating an alias in your shell configuration file (such as .bashrc or .zshrc):
+```
+alias xtchain="/path/to/xtchain/xtchain"
+```
+or adding the XTchain directory to your PATH environment variable:
+```
+export PATH="/path/to/xtchain:$PATH"
+```
+After making either change, reload your shell configuration with source ~/.bashrc (or source ~/.zshrc) to make the modification
+effective immediately. This way, you can start XTchain from anywhere simply by typing xtchain, without navigating to its folder
+each time.
+
 ## Setting Up XTchain on Windows
 On Windows, the simplest way to launch XTchain is by defining a dedicated profile in Windows Terminal that automatically
 opens PowerShell, loads the XTchain environment, and remains interactive for further commands.
@@ -31,7 +58,7 @@ ensures that the XTchain environment is ready every time you open the terminal.
 
 ### 2. Handling Execution Policy Errors
 When running the profile, you might see the following error message: **File ... cannot be loaded because running scripts is
-disabled on this system.**. This indicates that your system’s execution policy is set to block all or unsigned scripts. To
+disabled on this system**. This indicates that your system's execution policy is set to block all or unsigned scripts. To
 permanently fix it, open PowerShell as Administrator and enter:
 ```
 Set-ExecutionPolicy RemoteSigned
@@ -45,7 +72,7 @@ Warning: Only change execution policy if you trust the scripts you run.
 As an alternative, if you have installed Git for Windows along with the bundled MSYS2 tools, you can leverage its Bash shell and
 Unix-style scripts to initialize XTchain exactly as on Linux. During the installation process, you have the option to include a set
 of additional Unix utilities that, combined with the Bash shell, provide a powerful and familiar development environment. This setup
-allows you to run XTchain’s shell scripts seamlessly on Windows, mirroring the Linux workflow and ensuring consistency across
+allows you to run XTchain's shell scripts seamlessly on Windows, mirroring the Linux workflow and ensuring consistency across
 platforms without the need for platform-specific adjustments.
 
 For added convenience, you can also configure a dedicated profile in Windows Terminal that automatically launches Git Bash with the
