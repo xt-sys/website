@@ -8,6 +8,7 @@ This project includes content and code that has been partially created or assist
 We actively use the following AI tools to support development and documentation workflows:
  * **ChatGPT**: for generating and reviewing code, technical writing, and problem-solving assistance.
  * **Gemini Assistant**: integrated with VS Code, used for code suggestions and refactoring.
+ * **GitHub Copilot**: provides real-time code suggestions and completions.
  * **Windsurf**: VS Code extension that helps streamline repetitive coding tasks.
 We are also experimenting with other AI-based tools to evaluate their usefulness in different areas of the project.
 
