@@ -3,15 +3,22 @@ title = 'Download'
 date = 2024-06-16T22:35:11+02:00
 +++
 ### ExectOS
-ExectOS supports currently two architectures (i686 and AMD64). To get started today, either download a binaries for one of
-supported architectures or test drive ExectOS on the QEMU emulator by downloading a disk image. You can find a full list
-of files, available to download at [this page](https://artifacts.codingworkshop.eu.org/ExectOS/). Each file contains an
-information about build date, SHA1, architecture and a type of artifact, eg:
- * ExectOS-20240614-6b70074ec6-i686-bin.tar.gz - This archive contains a binary files that can be copied to USB disk and
-   booted up on bare metal hardware.
- * ExectOS-20240614-6b70074ec6-i686-lib.tar.gz - Contains a libraries useful for building 3rd party drivers.
- * ExectOS-20240614-6b70074ec6-i686-sym.tar.gz - This archive includes a debug symbols in PDB format.
- * ExectOS-20240614-6b70074ec6-i686.img.gz - This is a compressed QEMU disk image, that can be used with this emulator.
+ExectOS currently supports two architectures: i686 and AMD64. To get started, you can either download the appropriate
+binaries for your platform, or test-drive ExectOS using the QEMU emulator by downloading one of the available disk images.
+All available files are listed on [this page](https://artifacts.codingworkshop.eu.org/ExectOS/). Each filename includes
+the build date, commit hash, architecture, and build type (debug or release), as well as the artifact type. For example:
+
+* ExectOS-20250730-61d5e36a4e-i686-release-bin.tar.gz - Contains binary files that can be copied to a USB disk and booted
+  on bare metal hardware.
+* ExectOS-20250730-61d5e36a4e-i686-release-lib.tar.gz - Includes libraries useful for building 3rd party drivers.
+* ExectOS-20250730-61d5e36a4e-i686-release-sym.tar.gz - Contains debug symbols (PDB format) for release build.
+* ExectOS-20250730-61d5e36a4e-i686-release.img.gz - A compressed QEMU disk image for testing the release version of the
+  system.
+* ExectOS-20250730-61d5e36a4e-i686-debug-bin.tar.gz - Contains debug version of system binaries, including additional debug
+  output.
+* ExectOS-20250730-61d5e36a4e-i686-debug-lib.tar.gz - Libraries with debug symbols, suitable for development and testing.
+* ExectOS-20250730-61d5e36a4e-i686-debug-sym.tar.gz - Full debug symbols for the debug build, in PDB format.
+* ExectOS-20250730-61d5e36a4e-i686-debug.img.gz - A compressed QEMU disk image containing the debug build of ExectOS.
 
 ### XTChain
 Get the latest prebuilt toolchain, needed to compile the ExectOS Operating System. This includes the Clang compiler, and
