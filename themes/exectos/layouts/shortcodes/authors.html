@@ -10,7 +10,7 @@
     {{ range .Site.Data.authors }}
     <tr>
       <td class="nick-cell">
-        <img src="https://www.gravatar.com/avatar/{{ .mail | md5 }}?s=50&d=identicon" class="avatar" />
+        <img src="https://www.gravatar.com/avatar/{{ .email | md5 }}?s=50&d=identicon" class="avatar" />
         <a href="https://git.codingworkshop.eu.org/xt-sys/exectos/commits/branch/master/search?q=author%3A{{ .nick }}">
           <span>{{ .nick }}</span>
         </a>
