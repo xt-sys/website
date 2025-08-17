@@ -54,8 +54,8 @@ body {
 }
 
 code {
-        color            : #186196;
-        font-weight      : bold;
+    color            : #186196;
+    font-weight      : bold;
 }
 
 h1 {
@@ -150,24 +150,11 @@ tbody tr:hover {
 }
 
 .content {
+    box-sizing       : border-box;
     font-size        : 15px;
-    margin-left      : 30%;
-    margin-right     : 30%;
-    margin-top       : 1.5em;
-}
-
-@media (max-width: 1280px) {
-.content {
-    margin-left      : 60px;
-    margin-right     : 50px;
-}
-}
-
-@media (max-width: 1024px) {
-.content {
-    margin-left      : 50px;
-    margin-right     : 40px;
-}
+    margin           : 1.5em auto 0 auto;
+    max-width        : 1060px;
+    padding          : 0 20px;
 }
 
 .content img {
