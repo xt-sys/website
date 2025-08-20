@@ -5,8 +5,9 @@ date = 2024-06-16T22:35:11+02:00
 ### ExectOS
 ExectOS currently supports two architectures: i686 and AMD64. To get started, you can either download the appropriate
 binaries for your platform, or test-drive ExectOS using the QEMU emulator by downloading one of the available disk images.
-All available files are listed on [this page](https://artifacts.codingworkshop.eu.org/ExectOS/). Each filename includes
-the build date, commit hash, architecture, and build type (debug or release), as well as the artifact type. For example:
+All available files are listed on [this page](https://artifacts.codingworkshop.eu.org/ExectOS/?C=M&O=D). Each filename
+includes the build date, commit hash, architecture, and build type (debug or release), as well as the artifact type.
+For example:
 
 * ExectOS-20250730-61d5e36a4e-i686-release-bin.tar.gz - Contains binary files that can be copied to a USB disk and booted
   on bare metal hardware.
