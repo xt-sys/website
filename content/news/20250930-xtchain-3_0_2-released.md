@@ -5,6 +5,7 @@ date = '2025-09-30T06:12:05+01:00'
 +++
 We are excited to announce the release of XTchain 3.0.2. While this update is relatively minor, it brings several
 important improvements aimed at enhancing Windows compatibility and streamlining workflows across platforms.
+<!--more-->
 
 ## Integrated Mtools for FAT Images
 XTchain 3.0.2 now comes with Mtools built-in. This integration allows developers to format disk or partition images with
