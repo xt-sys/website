@@ -4,6 +4,7 @@ title = "ExectOS Operating System"
 theme = "exectos"
 languageCode = "en-us"
 defaultContentLanguage = "en"
+ignoreErrors = ["error-disable-taxonomy"]
 
 [menu]
 
