@@ -46,6 +46,11 @@ specific tasks, a kernel and drivers. Unlike the NT&trade;, system does not feat
 (HAL) between the physical hardware and the rest of the OS. Instead, XT architecture integrates a hardware specific code
 with the kernel.
 
+#### Why write a new operating system from scratch instead of forking an existing one like Linux or FreeBSD?
+Building from scratch gives us the freedom to implement the XT architecture without fighting the legacy code. For example,
+unlike classic NT systems, our architecture does not feature a separate Hardware Abstraction Layer (HAL). We integrate
+hardware specific code directly with the kernel.
+
 #### Does ExectOS allow to use Windows drivers?
 This is one of our goals. Thanks to the NT&trade; drivers compatibility layer provided by ExectOS, you should be able to
 install and use the same drivers as you can on Windows&reg;.
@@ -56,6 +61,11 @@ Yes. This is how it is tested on a bare metal (real hardware).
 #### Program X does not work when I launch it. When can I except things to change?
 It depends. ExectOS is in early development stage and it is not recommended for everyday usage. At this point we cannot
 guarantee anything.
+
+#### Is ExectOS ready for daily use?
+Not yet. ExectOS is heavily under development and is currently aimed at OSdev enthusiasts and kernel developers. We have
+successfully implemented core infrastructure, but running consumer applications reliably requires further development of
+other essential subsystems.
 
 #### When will feature X get added?
 If you think an idea has merit, you may choose to discuss it on [Discord Server](https://discord.com/invite/zBzJ5qMGX7).
@@ -103,3 +113,9 @@ world. Everyone is invited to join, use, and contribute to ExectOS, fostering a 
 
 #### Which license does ExectOS use?
 ExectOS is licensed under the GNU General Public License v3.
+
+#### Why is ExectOS published under the GPLv3 license rather than the EUPL?
+While EUPL is a great license, GPLv3 offers two massive advantages for an OS project: global reach and seamless integration.
+GPLv3 is instantly recognized by developers all over the world, which encourages international contributions. More
+importantly, using GPLv3 allows us to safely and easily integrate with the vast majority of existing open-source projects
+and libraries.
