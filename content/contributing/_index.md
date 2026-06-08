@@ -1,6 +1,7 @@
 +++
 title = 'Contributing'
 date = 2024-06-16T22:31:24+02:00
+layout = 'single'
 +++
 ### Contributing to Community
  * [Contributing to ExectOS](/contributing/contributing-to-exectos)

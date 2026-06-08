@@ -1,6 +1,7 @@
 +++
 title = 'Documentation'
 date = 2024-06-16T22:27:36+02:00
+layout = 'single'
 +++
 ### Getting Started
  * [AI-Assisted Contributions](/ai-assisted)
